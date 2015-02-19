@@ -42,6 +42,9 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1600
 
+# Recovery
+TARGET_RECOVERY_FSTAB = device/samsung/klimtwifi/twrp.fstab
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.universal5420 \
